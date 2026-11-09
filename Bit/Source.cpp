@@ -6,6 +6,7 @@ using namespace std;
 
 int main(int argc, char* argv[])
 {
+    setlocale(0, "");
     // Проверяем количество аргументов
     if (argc != 2)
     {
